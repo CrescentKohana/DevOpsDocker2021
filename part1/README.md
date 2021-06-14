@@ -1,4 +1,6 @@
-# 1.1
+# Part One Exercises
+
+## 1.1
 
 Input: `docker ps -a`
 
@@ -10,7 +12,7 @@ bb5f4180c693   nginx     "/docker-entrypoint.…"   41 seconds ago   Exited (0) 
 b3a3e487d0ad   nginx     "/docker-entrypoint.…"   42 seconds ago   Up 41 seconds               80/tcp    heuristic_gates
 ```
 
-# 1.2
+### 1.2
 
 Input: `docker ps -a`
 
@@ -27,7 +29,7 @@ REPOSITORY   TAG       IMAGE ID   CREATED   SIZE
 ```
 
 
-# 1.3
+## 1.3
 
 Input:
 ```sh
@@ -42,7 +44,7 @@ Output:
 Secret message is: 'You can find the source code here: https://github.com/docker-hy'
 ```
 
-# 1.4
+## 1.4
 
 Input:
 ```sh
@@ -63,7 +65,7 @@ Searching..
 </body></html>
 ```
 
-# 1.5
+## 1.5
 
 Input:
 ```sh
@@ -91,7 +93,7 @@ Output:
 ```
 Secret message is: 'You can find the source code here: https://github.com/docker-hy'
 ```
-# 1.6
+## 1.6
 
 Password found [here](https://hub.docker.com/r/devopsdockeruh/pull_exercise).
 
@@ -107,7 +109,7 @@ You found the correct password. Secret message is:
 "This is the secret message"
 ```
 
-# 1.7
+## 1.7
 
 [Dockerfile](7/Dockerfile)
 
@@ -129,7 +131,7 @@ Output:
 [GIN-debug] Listening and serving HTTP on :8080
 ```
 
-# 1.8
+## 1.8
 
 [Dockerfile](8/Dockerfile)
 
@@ -139,7 +141,7 @@ docker build . -t script:curler
 docker run -it script:curler
 ```
 
-# 1.9
+## 1.9
 
 Input:
 ```sh
@@ -147,14 +149,14 @@ touch /tmp/log.txt
 docker run -v ${pwd}/tmp/log.txt:/usr/src/app/text.log devopsdockeruh/simple-web-service
 ```
 
-# 1.10
+## 1.10
 
 Input:
 ```sh
 docker run -d -it -p 8080:8080 --name port-mapping devopsdockeruh/simple-web-service sh -c 'server'
 ```
 
-# 1.11
+## 1.11
 
 [Dockerfile](11/Dockerfile)
 
@@ -166,7 +168,7 @@ docker run -d -p 8080:8080 java-app
 
 ![Success](11/success.png)
 
-# 1.12
+## 1.12
 
 [Dockerfile](12/Dockerfile)
 
@@ -178,7 +180,7 @@ docker run -d -p 5000:5000 frontend-node
 
 > Exercise 1.12: Congratulations! You configured your ports correctly!
 
-# 1.13
+## 1.13
 
 [Dockerfile](13/Dockerfile)
 
@@ -190,7 +192,7 @@ docker run -d -p 8080:8080 backend-go
 
 > pong
 
-# 1.14
+## 1.14
 
 [Frontend Dockerfile](14/Dockerfile.frontend)
 ```sh
@@ -204,11 +206,10 @@ docker build . -t backend-go
 docker run -d -p 8080:8080 backend-go
 ```
 
-# 1.15
+## 1.15
 
 [Docker Hub repository](https://hub.docker.com/r/luukuton/youtube-dl-hy2021)
 
-# 1.16
+## 1.16
 
 [Heroku app](https://devopsdocker-exercise.herokuapp.com/)
-
