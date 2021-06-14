@@ -1,0 +1,10 @@
+# Files copied from https://github.com/docker-hy/material-applications
+part1/12/*
+part1/13/*
+
+# except Dockerfiles
+!part1/12/Dockerfile
+!part1/13/Dockerfile
+
+# Other
+youtube-dl
