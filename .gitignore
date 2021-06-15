@@ -1,10 +1,24 @@
+
 # Files copied from https://github.com/docker-hy/material-applications
 part1/12/*
 part1/13/*
+part2/04/backend/*
+part2/04/frontend/*
+part2/05
+part2/10/frontend/*
+part2/10/backend/*
+
+part2/07/ml-kurkkumopo*
 
 # except Dockerfiles
 !part1/12/Dockerfile
 !part1/13/Dockerfile
+!part2/04/backend/Dockerfile
+!part2/04/frontend/Dockerfile
+!part2/10/backend/Dockerfile
+!part2/10/frontend/Dockerfile
 
 # Other
 youtube-dl
+part2/09/database
+part2/10/database

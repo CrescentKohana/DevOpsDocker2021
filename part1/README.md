@@ -12,7 +12,7 @@ bb5f4180c693   nginx     "/docker-entrypoint.…"   41 seconds ago   Exited (0) 
 b3a3e487d0ad   nginx     "/docker-entrypoint.…"   42 seconds ago   Up 41 seconds               80/tcp    heuristic_gates
 ```
 
-### 1.2
+## 1.2
 
 Input: `docker ps -a`
 
@@ -111,7 +111,7 @@ You found the correct password. Secret message is:
 
 ## 1.7
 
-[Dockerfile](7/Dockerfile)
+[Dockerfile](07/Dockerfile)
 
 Input:
 ```sh
@@ -133,7 +133,7 @@ Output:
 
 ## 1.8
 
-[Dockerfile](8/Dockerfile)
+[Dockerfile](08/Dockerfile)
 
 Input:
 ```sh
