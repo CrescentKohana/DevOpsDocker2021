@@ -18,7 +18,7 @@ docker exec -ti build-assignment-hy /script.sh
 
 [Dockerfile](02/Dockerfile)
 
-[docker-compose.yml](02/Dockerfile)
+[docker-compose.yml](02/docker-compose.yml)
 
 [script.sh](02/script.sh)
 
@@ -32,7 +32,7 @@ Changes from [2.10](../part2/10):
 
 Frontend (node) size reduced from 1.17GB to 343MB and backend (golang) reduced from 1.01GB to 448MB.
 
-Changes from [3.3](./3.3):
+Changes from [3.3](./03):
 - [Dockerfile (frontend)](03/frontend/Dockerfile)
 - [Dockerfile (backend)](03/backend/Dockerfile)
 
@@ -50,7 +50,7 @@ FROM golang:1.16-alpine # 448MB
 
 Frontend (node) size reduced from  343MB to **309MB** and backend (golang) reduced from 448MB to **18.7MB**.
 
-Changes from [3.4](./3.4):
+Changes from [3.4](./04):
 - [Dockerfile (frontend)](06/frontend/Dockerfile)
 - [Dockerfile (backend)](06/backend/Dockerfile)
 - [docker-compose.yml](06/docker-compose.yml)
