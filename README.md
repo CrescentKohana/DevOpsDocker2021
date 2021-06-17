@@ -6,3 +6,4 @@ Exercises:
 
 - [Part One](part1)
 - [Part Two](part2)
+- [Part Three](part3)
