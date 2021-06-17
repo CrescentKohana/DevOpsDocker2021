@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+
+  build-assignment-hy:
+    container_name: build-assignment-hy
+    build: .
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+    stdin_open: true
+    restart: unless-stopped

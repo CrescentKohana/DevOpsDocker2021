@@ -7,6 +7,13 @@ part2/04/frontend/*
 part2/05
 part2/10/frontend/*
 part2/10/backend/*
+part3/03/frontend/*
+part3/03/backend/*
+part3/04/frontend/*
+part3/04/backend/*
+part3/06/frontend/*
+part3/06/backend/*
+
 
 part2/07/ml-kurkkumopo*
 
@@ -17,8 +24,17 @@ part2/07/ml-kurkkumopo*
 !part2/04/frontend/Dockerfile
 !part2/10/backend/Dockerfile
 !part2/10/frontend/Dockerfile
+!part3/03/backend/Dockerfile
+!part3/03/frontend/Dockerfile
+!part3/04/backend/Dockerfile
+!part3/04/frontend/Dockerfile
+!part3/06/backend/Dockerfile
+!part3/06/frontend/Dockerfile
 
 # Other
 youtube-dl
 part2/09/database
 part2/10/database
+part3/03/database
+part3/04/database
+part3/06/database
